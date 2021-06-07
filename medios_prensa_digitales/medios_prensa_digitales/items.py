@@ -10,5 +10,10 @@ import scrapy
 
 class MediosPrensaDigitalesItem(scrapy.Item):
     # define the fields for your item here like:
-    # name = scrapy.Field()
+    title = scrapy.Field()
+    descripcion = scrapy.Field()
+    fecha = scrapy.Field()
+    link = scrapy.Field()
+    calificacion = scrapy.Field()
+    noticia = scrapy.Field()
     pass
